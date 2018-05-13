@@ -1,0 +1,19 @@
+{
+  "name": "workshop-gl-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "gl-react": "^3.15.0",
+    "gl-react-dom": "^3.15.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "spectacle-scripts": "2.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "react-scripts build && surge build workshop-gl-react-expo.surge.sh"
+  }
+}
